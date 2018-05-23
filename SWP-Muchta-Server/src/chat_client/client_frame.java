@@ -24,6 +24,7 @@ public class client_frame extends javax.swing.JFrame
     {
          Thread IncomingReader = new Thread(new IncomingReader());
          IncomingReader.start();
+         
     }
     
     //--------------------------//
@@ -80,6 +81,7 @@ public class client_frame extends javax.swing.JFrame
         }
         isConnected = false;
         tf_username.setEditable(true);
+        System.out.println("Disconected");
 
     }
     
