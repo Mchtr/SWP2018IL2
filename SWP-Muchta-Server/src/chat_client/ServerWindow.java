@@ -1,5 +1,6 @@
+package chat_client;
+
 import java.awt.EventQueue;
-import java.awt.Scrollbar;
 import java.awt.SystemColor;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -11,10 +12,9 @@ import java.util.Iterator;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.JScrollBar;
 
 public class ServerWindow {
 	private JButton btnStartServer;
